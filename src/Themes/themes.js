@@ -1,6 +1,9 @@
 const theme1 = {
     colors: {
-        black: '#30353E'
+        backgroundColorBlack: '#30353E'
+    },
+    metrics: {
+        headerHeight: 60
     }
 }
 

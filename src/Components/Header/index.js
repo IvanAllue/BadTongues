@@ -5,7 +5,7 @@ const header = (props) => {
     return(
         <div style={styles.headerContainer}>
             <div style={styles.iconContainer}>
-                <button style={styles.button} onClick={props.clickListener}>
+                <button style={styles.button} onClick={()=>{props.clickListener()}}>
                     Menu
                 </button>
             </div>
