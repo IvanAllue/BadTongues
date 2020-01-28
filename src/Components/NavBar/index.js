@@ -20,7 +20,7 @@ const navBar = props => {
           >
             {" "}
             {props.items.map(item => (
-              <Link key={item.id} style={styles.link} to={item.route}>
+              <Link key={item.id} style={styles.link} to={item.route} onClick={()=>{props.clickEvent()}}>
                 <p style={styles.linkText}> {item.name} </p>
               </Link>
             ))}

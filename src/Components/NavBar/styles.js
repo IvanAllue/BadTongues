@@ -10,6 +10,9 @@ const styles = {
     color: "white",
     alignItems: "center",
     transition: "all 0.3s",
+    overflow: 'auto',
+    margin:0,
+    padding: 0,
     "@media (min-Width: 550px)": {
         width: "40vw",
     },
@@ -18,7 +21,10 @@ const styles = {
     },
     "@media (min-Width: 1000px)": {
         width: "20vw",
-    }
+    },
+    "@media (min-Width: 1500px)": {
+      width: "15vw",
+  }
   },
   linksContainer: {
     display: 'flex',
@@ -29,10 +35,9 @@ const styles = {
     flex: 1,
     display: 'flex',
     textDecoration: 'none',
-    color: 'white',
+    color: theme1.colors.goldText,
     justifyContent: 'center',
-    borderWidth: 4,
-    borderColor: 'white',
+    fontWeight: 'bold',
   },
 
   linkText: {
